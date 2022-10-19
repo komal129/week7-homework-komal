@@ -38,6 +38,8 @@ public class Program3_StudentResult {
         science = s.nextInt();
         System.out.println("Enter English marks: ");
         english = s.nextInt();
+        s.close
+            
         if (maths < 0 || maths > 100) {
             System.out.println("Invalid Input, marks should be between 0 to 100");
         }
